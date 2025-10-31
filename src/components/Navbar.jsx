@@ -296,15 +296,18 @@ const Navbar = () => {
               blueOffset={2}
               mixBlendMode="normal"
             >
-              <motion.button
+              <motion.a
+                href="https://play.google.com/store/apps/details?id=com.dridha.shortly"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className={`w-full h-full font-semibold transition-colors duration-300 ${
+                className={`w-full h-full font-semibold transition-colors duration-300 flex items-center justify-center ${
                   theme === 'light' ? 'text-purple-800 hover:text-purple-900' : 'text-purple-300 hover:text-white'
                 }`}
               >
                 Download App
-              </motion.button>
+              </motion.a>
             </GlassSurface>
           </div>
 

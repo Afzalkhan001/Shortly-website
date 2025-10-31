@@ -14,7 +14,7 @@ const Footer = () => {
     ],
     Company: [
       { label: 'About', href: '#why-shortly' },
-      { label: 'Press', href: '#why' },
+      { label: 'Press', href: '#why-shortly' },
       { label: 'Careers', href: '#footer' },
       { label: 'Contact', href: '#footer' },
     ],
@@ -72,9 +72,9 @@ const Footer = () => {
                   distortionScale={-30}
                   className="hover-lift"
                 >
-                  <a href="#home" className="flex items-center gap-2 text-sm px-4 py-2">
+                  <a href="https://play.google.com/store/apps/details?id=com.dridha.shortly" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm px-4 py-2">
                     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M3 20.5v-17c0-.83.67-1.5 1.5-1.5S6 2.67 6 3.5v17c0 .83-.67 1.5-1.5 1.5S3 21.33 3 20.5zm10.72-4.28L6 8.5v8c0 .28.22.5.5.5h11c.28 0 .5-.22.5-.5v-8l-2.72 2.72c-.39.39-1.02.39-1.41 0l-1.41-1.41c-.39-.39-.39-1.02 0-1.41L17.5 3h-11C6.22 3 6 3.22 6 3.5V6l7.72 7.72c.78.78.78 2.05 0 2.83l-1.41 1.41c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0z"/>
+                      <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.5,12.92 20.16,13.19L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
                     </svg>
                     Google Play
                   </a>

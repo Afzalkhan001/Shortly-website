@@ -158,7 +158,7 @@ const Hero = () => {
 
             {/* Google Play Button */}
             <motion.a
-              href="https://play.google.com"
+              href="https://play.google.com/store/apps/details?id=com.dridha.shortly"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -2 }}

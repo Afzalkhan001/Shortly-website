@@ -114,23 +114,11 @@ const GlassSurface = ({
     xChannel,
     yChannel,
     mixBlendMode,
-    physics
+    physics,
+    intensity,
+    highlightX,
+    highlightY
   ]);
-
-  useEffect(() => {
-    if (!containerRef.current) return;
-
-    const resizeObserver = new ResizeObserver(() => {
-      setTimeout(updateDisplacementMap, 0);
-    });
-
-    resizeObserver.observe(containerRef.current);
-
-    return () => {
-      resizeObserver.disconnect();
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   useEffect(() => {
     if (!containerRef.current) return;
